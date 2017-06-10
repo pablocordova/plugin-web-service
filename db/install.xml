@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="blocks/rss_client/db" VERSION="20150717" COMMENT="XMLDB file for Moodle rss_client block"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
+    <TABLES>
+        <TABLE NAME="banco_comercio" COMMENT="Table contains all data about json">
+            <FIELDS>
+                <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true" />
+                <FIELD NAME="dni" TYPE="text" LENGTH="20" NOTNULL="false" SEQUENCE="false" />
+                <FIELD NAME="division" TYPE="text" LENGTH="30" NOTNULL="false" SEQUENCE="false" />
+                <FIELD NAME="departamento" TYPE="text" LENGTH="80" NOTNULL="false" SEQUENCE="false" />
+                <FIELD NAME="centrocostos" TYPE="text" LENGTH="10" NOTNULL="false" SEQUENCE="false" />
+                <FIELD NAME="centrocosto" TYPE="text" LENGTH="50" NOTNULL="false" SEQUENCE="false" />
+                <FIELD NAME="empleado" TYPE="int" LENGTH="9" NOTNULL="false" SEQUENCE="false" />
+                <FIELD NAME="nombrecompleto" TYPE="text" LENGTH="65" NOTNULL="false" SEQUENCE="false" />
+                <FIELD NAME="cargoemp" TYPE="text" LENGTH="400" NOTNULL="false" SEQUENCE="false" />
+                <FIELD NAME="fechaingreso" TYPE="text" LENGTH="8" NOTNULL="false" SEQUENCE="false" />
+                <FIELD NAME="conceptoacceso" TYPE="text" LENGTH="5" NOTNULL="false" SEQUENCE="false" />
+                <FIELD NAME="descripciontipolicencia" TYPE="text" LENGTH="40" NOTNULL="false" SEQUENCE="false" />
+                <FIELD NAME="desde" TYPE="text" LENGTH="8" NOTNULL="false" SEQUENCE="false" />
+                <FIELD NAME="hasta" TYPE="text" LENGTH="8" NOTNULL="false" SEQUENCE="false" />
+                <FIELD NAME="cantidad" TYPE="int" LENGTH="4" NOTNULL="false" SEQUENCE="false" />
+                <FIELD NAME="estadosolicitud" TYPE="text" LENGTH="2" NOTNULL="false" SEQUENCE="false" />
+            </FIELDS>
+            <KEYS>
+                <KEY NAME="primary" TYPE="primary" FIELDS="id" />
+            </KEYS>
+        </TABLE>
+    </TABLES>
+</XMLDB>
